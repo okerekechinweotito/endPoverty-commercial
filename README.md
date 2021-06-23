@@ -1,5 +1,3 @@
 # 🌐 Live @ https://endpoverty.vercel.app
 
-# Team VENOM's Solution to Ingressive_4_Good Hackathon.
-
-## We implemented a solution to GOAL 1 of the United_Nations SDG
+# endPoverty is a non-profit organization founded to help those living under extreme poverty inline with the United Nations Sustainable Development Goals
