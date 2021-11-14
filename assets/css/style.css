@@ -1590,7 +1590,7 @@ table p {
 
 /*-------- Preloader Style Css --------*/
 .preloader-deactive .loading {
-    display: none;
+  display: none;
 }
 
 .loading {
@@ -1612,37 +1612,35 @@ table p {
   align-items: center;
   background-color: #122b46;
 }
- .loading__wrapper {
-    width: 25em;
-    height: 50%;
-    display: flex;
-    display: flex;
-    justify-content: space-around;
-  
-  }
-  .loading--logo1,
-  .loading--logo2 {
-    width: 9em;
-    height: 13em;
-    max-width: 10em;
-    margin-bottom: 5em;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    animation-name: logoScale;
-    animation-duration: 3000ms;
-    animation-delay: 0ms;
-    animation-iteration-count: infinite;
-  }
-  
-  
-  .loading--logo1 {
-     background-image: url("../img/brand-logo/preloader2.png");
-  }
-  .loading--logo2 {
-    background-image: url("../img/brand-logo/preloader1.png");
-  }
- 
+.loading__wrapper {
+  width: 25em;
+  height: 50%;
+  display: flex;
+  display: flex;
+  justify-content: space-around;
+}
+.loading--logo1,
+.loading--logo2 {
+  width: 9em;
+  height: 13em;
+  max-width: 10em;
+  margin-bottom: 5em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: logoScale;
+  animation-duration: 3000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: infinite;
+}
+
+.loading--logo1 {
+  background-image: url("../img/brand-logo/preloader2.png");
+}
+.loading--logo2 {
+  background-image: url("../img/brand-logo/preloader1.png");
+}
+
 @keyframes logoScale {
   0% {
     transform: scale(1);
@@ -1678,7 +1676,6 @@ table p {
   z-index: 99999;
   overflow: hidden;
   background-color: #122b46;
-
 }
 .preloader-wrap .preloader {
   position: absolute;
@@ -3362,7 +3359,7 @@ table p {
   font-size: 17px !important;
   font-weight: 500;
   line-height: 3;
-  padding: 15px 30px ;
+  padding: 15px 30px;
   margin: 0;
   text-transform: capitalize;
   position: relative;
@@ -3376,7 +3373,7 @@ table p {
 }
 .res-mobile-menu .slicknav_nav li a .slicknav_arrow {
   background-color: transparent;
-   color: #fff;
+  color: #fff;
   font-size: 17px;
   display: block;
   text-align: center;
@@ -3637,7 +3634,6 @@ table p {
   > li
   a {
   color: #0e0e0e;
-  
 }
 .header-area.header-default
   .header-align
@@ -3829,7 +3825,6 @@ table p {
   > li
   > a {
   color: #fff;
-
 }
 .header-area.header-default.sticky-header.sticky
   .header-align
@@ -3911,8 +3906,7 @@ table p {
   .header-action-area
   a.btn-menu
   span {
-  background-color:   #fc6539;
-;
+  background-color: #fc6539;
 }
 
 .btn-menu-slide-close {
@@ -4129,7 +4123,7 @@ table p {
   line-height: 1;
 }
 .off-canvas-wrapper .btn-close:hover {
-  color:  #fc6539;
+  color: #fc6539;
 }
 .off-canvas-wrapper .off-canvas-inner {
   background-color: transparent;
@@ -4143,7 +4137,7 @@ table p {
   z-index: 3;
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content {
-  background-color:#122B46;
+  background-color: #122b46;
   height: 100%;
   padding: 0 50px;
   position: relative;
@@ -4435,7 +4429,7 @@ table p {
   li
   i {
   color: #595959;
-  
+
   font-size: 14px;
   width: 27px;
 }
@@ -4459,38 +4453,40 @@ table p {
 
 .home-slider-area.slider-default {
   position: relative;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://images.unsplash.com/photo-1494832944834-a08818c634b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1494832944834-a08818c634b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
   background-position: center !important;
-  background-size:cover;
+  background-size: cover;
 }
 
-@media screen and (min-width:765px){
-.home-slider-area.slider-default {
-  background-position: initial !important;
-  height: 37em !important;
-  margin-bottom:9em;
-  animation-name: slider;
-  animation-delay: 0s;
-  animation-duration: 10000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; 
-  animation-direction: alternate; 
+@media screen and (min-width: 765px) {
+  .home-slider-area.slider-default {
+    background-position: initial !important;
+    height: 37em !important;
+    margin-bottom: 9em;
+    animation-name: slider;
+    animation-delay: 0s;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+  }
+
+  @keyframes slider {
+    0% {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://mk0habitatforhui6bly.kinstacdn.com/wp-content/uploads/2018/08/relative-poverty-cover.jpg");
+    }
+    35% {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://images.unsplash.com/photo-1494832944834-a08818c634b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+    }
+    100% {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://www.ox.ac.uk/sites/files/oxford/styles/ow_medium_feature/s3/field/field_image_main/OPHI.jpg?itok=di-qqCbb");
+    }
+  }
 }
-
-
-@keyframes slider {
-  0%{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://mk0habitatforhui6bly.kinstacdn.com/wp-content/uploads/2018/08/relative-poverty-cover.jpg');
-  } 
-   35%{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://images.unsplash.com/photo-1494832944834-a08818c634b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80');
-  } 
-   100%{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://www.ox.ac.uk/sites/files/oxford/styles/ow_medium_feature/s3/field/field_image_main/OPHI.jpg?itok=di-qqCbb');
-  } 
-} 
-}
-
 
 .home-slider-area.slider-default .home-slider-content .home-slider-item {
   height: 900px;
@@ -4651,7 +4647,7 @@ table p {
     .tittle-wrp
     h2 {
     font-size: 60px;
-    color:#fff;
+    color: #fff;
   }
 }
 @media only screen and (max-width: 1199px) {
@@ -4691,7 +4687,7 @@ table p {
   display: inline-block;
   position: relative;
   z-index: 1;
-  color:white;
+  color: white;
 }
 .home-slider-area.slider-default
   .slider-content-area
@@ -4699,7 +4695,7 @@ table p {
   .tittle-wrp
   h2
   span:before {
-  background-image: url("../img/shape/banner-title-shape.png"); 
+  background-image: url("../img/shape/banner-title-shape.png");
   background-repeat: no-repeat;
   background-position: 13px 9px;
   content: "";
@@ -4805,7 +4801,7 @@ table p {
   .btn-wrp
   .btn-theme.btn-black.btn-border {
   border: 1px solid #d7d7d7;
-  color:black;
+  color: black;
   padding: 20px 36px;
   transition: 0s;
   background-color: #fff;
@@ -5368,7 +5364,7 @@ table p {
 .about-area.about-default-area {
   padding: 146px 0 15px;
   position: relative;
-  background-color: #001D23;
+  background-color: #001d23;
   color: #fff !important;
 }
 @media only screen and (max-width: 991px) {
@@ -5412,7 +5408,7 @@ table p {
   }
 }
 .about-area .layer-style:before {
-  background-color: #283E42;
+  background-color: #283e42;
   border-radius: 50%;
   content: "";
   height: 546px;
@@ -5692,7 +5688,6 @@ table p {
   padding: 135px 0 0;
   position: relative;
   z-index: 1;
-
 }
 @media (max-width: 1799px) {
   .service-area.service-default-area {
@@ -8034,7 +8029,6 @@ table p {
 .donate-area.donate-default-area {
   overflow: hidden;
   padding: 105px 0 104px;
- 
 }
 @media only screen and (max-width: 1199px) {
   .donate-area.donate-default-area {
@@ -8094,7 +8088,7 @@ table p {
 }
 .donate-area.donate-default-area .donate-form:before {
   background-color: #08242a;
-  
+
   border-radius: 50%;
   content: "";
   height: 724px;
@@ -8180,7 +8174,6 @@ table p {
   height: 58px;
   padding: 2px 0px;
   text-align: center;
-
 }
 .donate-form
   form
@@ -8514,7 +8507,6 @@ table p {
 }
 .icon-box-style1 .icon-box-item.item-two {
   background-color: #001d23;
-
 }
 .icon-box-style1 .icon-box-item.item-two .icon-box-top {
   left: -7px;
@@ -12014,4 +12006,11 @@ table p {
   .site-wrapper-reveal {
     margin-bottom: 0 !important;
   }
+}
+
+.tittle-wrp h2 {
+  color: #fff !important;
+}
+#volubutton {
+  margin-bottom: 20em;
 }
